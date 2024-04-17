@@ -75,12 +75,17 @@ nav > a{
 }
 
 .hero-text {
-    position: absolute;
-    top: 22.5%;
-    bottom: 72.5%;
-    left: 20%;
-    right: 20%;
+    /* position: absolute; */
+    /* top: 22.5%; */
+    /* bottom: 72.5%; */
+    /* left: 50%; */
+    /* right: 50%; */
+    /* transform: translate(-50%, -50%); */
     font-size: 3em;
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     /* word-spacing: .3em; */
     letter-spacing: .19em;
@@ -161,6 +166,7 @@ nav > a{
     /* border-bottom: 5px solid red; */
     text-decoration: none;
     /* padding-bottom: -1px; */
+    color: var(--Very-dark-desaturated-blue);
 }
 
 .text-frame-link:hover {
@@ -240,7 +246,7 @@ nav > a{
     width: 333px;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 1.8em;
     text-align: center;
 }
 
@@ -538,6 +544,7 @@ footer h2 {
         right: 50%;
         transform: translate(-50%);
         width: 200px;
+        color: var(--Very-dark-grayish-blue);
     }
 
     .imageNtext-container > h3 {
